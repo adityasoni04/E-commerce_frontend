@@ -1,5 +1,5 @@
 "use client"
-import CarouselComponent from '../components/Common/Carousel';
+import CarouselComponent from '../components/common/Carousel';
 import ProductList from '../components/Product/ProductList';
 import { Layout } from 'antd';
 
