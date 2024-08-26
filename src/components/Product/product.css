@@ -1,0 +1,44 @@
+.productCard {
+    position: relative;
+    background-color: var(--color-grey-primary);
+    margin: 1rem;
+    flex: 1 0 20rem;
+    max-width: 25rem;
+    max-height: 32rem;
+    transition: 0.2s;
+}
+
+
+.productCard:hover{
+    transform: translateY(-0.5rem);
+    box-shadow: 0.5rem 0.75rem 1.5rem #bbbbbb;
+}
+
+
+.cardImage {
+    object-fit: cover;
+    height: 200px;
+}
+
+.cardTitle {
+    font-size: 1rem;
+}
+
+.cardDescription {
+    font-size: 0.9rem;
+}
+
+.cardPrice {
+    font-size: 1.2rem;
+}
+
+.productRating {
+    margin-top: 10px;
+}
+
+.productSales {
+    font-size: 0.8rem;
+    color: #888;
+    margin-top: 5px;
+}
+

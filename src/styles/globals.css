@@ -1,0 +1,17 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.site-layout-content {
+    padding: 24px;
+    min-height: 280px;
+}
+
+.ant-layout-header {
+    background: #fff;
+}
